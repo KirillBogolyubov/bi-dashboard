@@ -1,0 +1,9 @@
+@import "css/settings";
+
+@mixin notification() {
+  color: $color-secondary;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}

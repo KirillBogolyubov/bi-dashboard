@@ -1,0 +1,50 @@
+@import '~foundation-sites/scss/util/util';
+@import '~modularscale-sass';
+
+$modularscale: (
+  base: 16px,
+  ratio: 1.16
+);
+
+$color-primary: #1d2745;    // главный цвет фона
+$color-secondary: #E7A52E;  // оранжевый цвет
+$color-orange: #FDB140;     //  закрашиваем кнокпи при наведении
+$color-light-orange: #FFCB7E;
+$color-sidebar: #131C35;    // фон блока sidebar
+$color-modal: #233159;      // фон модального окна
+$color-indicator: #131C35;  // цвет фона индикатора
+
+$color-gray: #656A77;
+$color-gray-dark: #4E5467;
+
+$color-white: #F3F3F3;      // цвет текста
+$color-dark-blue: #1F2A49;  // цвет карточки фона при наведении и текста не главной кнопки
+$color-blur-green: #1F444C; // размытые круги на фоне
+$color-blur-blue: #224561;  // размытые круги на фоне
+$color-dark-blue: #17213C;
+$color-another-blue: #404D72; // цвет placeholder
+$color-blue-gray: #68769C;
+$color-dark-dark-blue: #1A2441;
+$color-dark-green-blue: #1F3546;
+$color-coral: #bb6464;
+
+$color-near-black: #10172d;
+$color-success: #C1E9AF;    // цвет input success
+$color-invalid: #DC4632;    // цвет input invalid
+
+$color-checked: #af9bff;
+$color-disable: #6d7281;
+
+$color-toggle-background: #202D51; // фоновый цвет toggle
+$color-toggle-control: #FDB140; // цвет контроллера toggle
+
+$color-calendar: #131C35;  // цвет фона календаря
+$color-calendar-names: #636A77; // цвет дней недели календаря
+
+$color-chart-text: #131C35;  // цвет текста карточки с графиком
+
+$color-status-gray: #949392;
+$color-status-yellow: #FCD462;
+$color-status-green: #89D45A;
+;
+

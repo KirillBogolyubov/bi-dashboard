@@ -1,0 +1,48 @@
+@import "../settings";
+
+@mixin button($primary: true) {
+  @if $primary == true {
+    border: 1px solid $color-secondary;
+    color: $color-white;
+    background-color: transparent;
+  } @else {
+    border: none;
+    color: $color-dark-blue;
+    background-color: $color-white;
+  }
+
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 17px;
+  text-transform: lowercase;
+  line-height: 14px;
+  min-height: 33px;
+  min-width: 139px;
+  transition:
+          opacity 0.3s 0s ease-in-out,
+          background-color 0.3s 0s ease-in-out,
+          color 0.3s 0s ease-in-out;
+
+  &:hover:not([disabled]) {
+    background-color: $color-orange;
+    color: $color-white;
+  }
+
+  &:active {
+   text-shadow: 0 0 3px $color-white;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    //border: 1px solid $color-orange;
+    //color: $color-white;
+    //background-color: transparent;
+    opacity: 0.5;
+  }
+}

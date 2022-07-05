@@ -1,0 +1,10 @@
+@import "css/settings";
+
+@mixin header1() {
+  text-transform: uppercase;
+  color: $color-white;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+}

@@ -1,0 +1,31 @@
+@import 'settings';
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@import 'transitions/fade';
+@import 'transitions/row';
+@import 'transitions/slide';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $color-primary;
+  background-image: radial-gradient(300px at 100% 15%, $color-blur-green, transparent),
+  radial-gradient(300px at 3% 7% , $color-blur-green, transparent),
+  radial-gradient(300px at 25% 93% , $color-blur-blue, transparent);
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pdf-block {
+  & * {
+    color: $color-dark-blue !important;
+  }
+}
